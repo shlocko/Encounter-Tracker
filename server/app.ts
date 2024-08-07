@@ -21,3 +21,7 @@ app.listen(PORT, () => {
 app.get("/api/items", (req, res) => {
     res.send(items);
 })
+
+app.get("/", (req, res) => {
+    res.sendFile(__dirname, "../dist/index.html");
+})
