@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.5"
+  }
+  "scripts": {
+      "start": "tsx watch ./app.ts"
+  }
+}

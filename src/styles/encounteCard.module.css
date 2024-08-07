@@ -1,0 +1,99 @@
+.card {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 3px solid darkgray;
+    border-radius: 1ch;
+    padding: 1ch;
+    background-color: rgb(204, 204, 204);
+}
+
+.card * {}
+
+.initPicName {
+    flex-grow: 3;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+}
+
+.initiative {
+    flex-grow: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plusButton {
+    width: 3ch;
+    height: 3ch;
+    border: 1px solid gray;
+    border-radius: 0.5ch;
+    margin-left: 0.5ch;
+    margin-right: 0.5ch;
+    text-align: center;
+    line-height: 3ch;
+    user-select: none;
+}
+
+.plusButton:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.initiative>div {
+    min-width: 50%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.initiative>div>div {
+    display: flex;
+}
+
+.thumbnail {
+    height: 5em;
+    width: 5em;
+}
+
+.thumbnailBox {
+    height: 5em;
+    width: 5em;
+}
+
+.name {
+    flex-grow: 3;
+    text-align: center;
+}
+
+.status {
+    flex-grow: 8;
+    display: flex;
+    flex-direction: row;
+}
+
+.counterBox {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counterBox>div {
+    display: flex;
+}
+
+.inputPrimary {
+    width: 3ch;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.inputSecondary {
+    width: 3ch;
+    font-size: 1rem;
+    text-align: center;
+}
